@@ -1,0 +1,14 @@
+<resources>
+  <string name="app_name">TestTaskSergii</string>
+  <string name="title">Title</string>
+  <string name="first_name">First name</string>
+  <string name="last_name">Last name</string>
+  <string name="nationality">Nationality</string>
+  <string name="gender">Gender</string>
+  <string name="title_info">Title</string>
+  <string name="first_name_info">First name</string>
+  <string name="last_name_info">Last name</string>
+  <string name="nationality_info">Nationality</string>
+  <string name="gender_info">Gender</string>
+  <string name="profile_picture">Profile picture</string>
+</resources>

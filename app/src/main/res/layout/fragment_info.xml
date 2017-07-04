@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical">
+
+  <ImageView
+    android:id="@+id/ivInfoImage"
+    android:layout_width="200dp"
+    android:layout_height="200dp"
+    android:layout_margin="10dp"
+    android:background="@mipmap/ic_launcher"
+    android:contentDescription="@string/profile_picture" />
+
+  <LinearLayout
+    android:id="@+id/llInfoContainer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_toEndOf="@+id/ivInfoImage"
+    android:layout_margin="10dp">
+
+    <TextView
+      android:id="@+id/tvInfoTitle"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginEnd="10dp"
+      android:text="@string/title_info"
+      android:textSize="16sp"/>
+
+    <TextView
+      android:id="@+id/tvInfoFirst"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="10dp"
+      android:layout_marginEnd="10dp"
+      android:text="@string/first_name_info"
+      android:textSize="16sp"/>
+
+    <TextView
+      android:id="@+id/tvInfoLast"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="10dp"
+      android:layout_marginEnd="10dp"
+      android:text="@string/last_name_info"
+      android:textSize="16sp"/>
+
+    <TextView
+      android:id="@+id/tvInfoNat"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="10dp"
+      android:layout_marginEnd="10dp"
+      android:text="@string/nationality_info"
+      android:textStyle="bold" />
+
+    <TextView
+      android:id="@+id/tvInfoGender"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="10dp"
+      android:layout_marginEnd="10dp"
+      android:text="@string/gender_info"
+      android:textStyle="italic" />
+
+  </LinearLayout>
+
+</RelativeLayout>
