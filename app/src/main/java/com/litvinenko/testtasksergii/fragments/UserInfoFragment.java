@@ -54,7 +54,7 @@ public class UserInfoFragment extends Fragment {
       lastName.setText(user.getLastName());
       nationality.setText(user.getNationality());
       gender.setText(user.getGender());
-      new DownloadImageTask(image).doInBackground(user.getPicture());
+      new DownloadImageTask(image).execute(user.getPicture());
     }
 
     return v;
